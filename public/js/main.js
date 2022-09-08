@@ -60,7 +60,7 @@ const cityinf=async(event)=>{
 
    const tempMod=arrdata[0].weather[0].description;
 //    console.log(tempMod);
- alert(tempMod);
+ //alert(tempMod);
 //    temp_status.innerHTML=tempMod;
          
 // if(tempMod==="broken clouds"){
