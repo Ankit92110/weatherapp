@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,200;0,8..30,300;1,8..30,200;1,8..30,300&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #c8d6e5;
+}
+.nav-link  {
+    
+    transition: all 0.7;
+    
+}
+/* .nav-link:hover{
+    color:red;
+    transform:scale(1.1);
+} */
+.ankit{
+    color:red;
+    animation: logorotate 1s linear  infinite ;
+   /* // animation: mymove 2s linear infinite; */
+}
+@keyframes logorotate {
+     
+   0%{
+    transform:rotate(0deg);
+   } 
+   100%{
+    transform:rotate(360deg);
+   }
+}
+ /* this is for check now */
+
+ .box_shadow{
+    box-shadow: 0px 14px #888888;
+    
+ }
+
+ .box_shadow1{
+    box-shadow: 0px 4px #888888;
+    
+ }
+
+
+ /* footer */
+.footer{
+   
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top:auto;
+}
+ .footer p{
+     margin: 0px;
+  text-align:center;
+  color:white;
+  display:flex;
+  align-items: center;
+  line-height: 2rem;
+ }
+ .footer p span{
+     color:red;
+ }
+
+ /* <for the wether page */
+ .box{
+     min-height:15rem;
+ }
